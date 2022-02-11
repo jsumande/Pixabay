@@ -18,14 +18,12 @@ function Search() {
                 onChange={ (e) => updateResult(e.nativeEvent.text)}
             />
 
-
             <View style={styles.TouchView}>
                 <TouchableOpacity style={styles.TouchButton} onPress={() => navigation.reset({ index: 0,routes: [{ name: 'Result' }],})} >
                     <Text style={styles.Touchtext}><Icon name="search" color="white"  size={20}/> Search</Text>
                 </TouchableOpacity>
             </View>
 
-        
         </SafeAreaView >
 
     )

@@ -33,7 +33,6 @@ function Detail() {
 
     },[])
 
-
     return(
 
         <SafeAreaView style={{flex : 1}}>
@@ -64,18 +63,12 @@ function Detail() {
 
                                 </View>
 
-
                                 <Text style={styles.image_detail}><Icon name="download" color="black"  size={15}/> {resultData.downloads}</Text>
                                 <Text style={styles.image_detail}><Icon name="image" color="black"  size={15}/> {resultData.collections}</Text>
-                                
-
 
                             </View>
-
                     </ScrollView>
                 </View>
-
-             
 
             </View> 
         </SafeAreaView>

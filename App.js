@@ -14,18 +14,15 @@ import SearchResult from './src/component/search_result.js';
 import DetailResult from './src/component/detail.js';
 
 
-
 const Stack = createNativeStackNavigator();
 
 function SearchScreen() {
-  console.log(REACT_APP_ACCESS_LINK)
   return (
     <Search/>
   );
 }
 
 function ResultScreen() {
-
   return (
     <SearchResult/>
   );
@@ -33,8 +30,6 @@ function ResultScreen() {
 
 
 function DetailScreen(route){
- 
-
   return (
     <DetailResult/>
 )}
@@ -52,8 +47,6 @@ const App = () => {
   </NavigationContainer>
   );
 };
-
-
 
 
 export default App;
