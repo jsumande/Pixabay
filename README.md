@@ -15,6 +15,12 @@ The user input any text/word in search input field and by pressing the search bu
 
 ![2](https://user-images.githubusercontent.com/23740887/153554279-3e36f51b-0bba-4cef-bd70-d22614a7691a.jpg)
 
-In the Search Result Screen we can see the search result and the user can now preview the detail of the image such as total likes , comments and total views. By pressing the detail button which will be redirect to detail screen to get the full information of the selected image. 
+In the Search Result Screen we can see the search result and the user can now preview the detail of the image such as total likes , comments and total views. By pressing the detail button which will be redirect to Detail Screen to get the full information of the selected image. Also pressing the again search button the screen will be redirect to Search Screen.
 
 ![3](https://user-images.githubusercontent.com/23740887/153555142-57a27c5e-fa77-4808-aeac-3c6f635f3c9d.jpg)
+
+
+In the Detail Screen we can see the selected image with the detail of the uploader of the image , key tags of the image ,total download and total collection of the uploader. By pressing the key tags of the image the screen will be redirect to Search Result Screen and getting new result based on the key tags selected.
+
+![4](https://user-images.githubusercontent.com/23740887/153555940-1a2e28d5-5b92-4a48-ac61-e9e53375eba7.jpg)
+
